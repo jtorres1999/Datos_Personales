@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DATOS PERSONALES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/und/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.css"></script>
+    <link rel="stylesheet" href="../Datos_Personales_Html/img/fondo.jpg">
+</head>
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="Index.html">INICIO</a>
+        </li>
+    <div id="contenido" class="container">
+        
+        <div class="jumbotron">
+            
+            <center><h3>FORMULARIO DE DATOS PERSONALES</h3></center>
+            <label >Nombre: </label>
+            <input type="text" id="Nombre" class="form-control">
+            <label >Apellido</label>
+            <input type="text" id="Edad" class="form-control">
+            <label >Estado Civil</label>
+            <select  id="estcivil" class="form-control">
+                <option value="0"> Escoja una opcion</option>
+                <option value="soltero">Soltero</option>
+                <option value="casado">Casado</option>
+                <option value="Union">Union Libre</option>
+                <option value="Feo">Feo</option>
+            </select>
+            <br>
+            <label >Sexo: </label>
+            <br>
+            <input type="radio" id="man" value="Masculino" name="sexo"><label >Masculino</label>
+            <input type="radio" id="fem" value="Femenino" name="sexo"><label >Femenino</label>
+            <br>
+            <label >Te gusta el curso:</label>
+            <br>
+            <input type="radio" id="ck" name="si"><label >SI</label>
+            <input type="radio"  id="cko" name="si"><label >NO</label>
+            <br>
+             <label >Comentarios</label>
+             <textarea class="form-control" id="comentario"  rows="7"></textarea>   
+            <br>
+            <button type="button" class="btn btn-primary btn-lg">ENVIAR</button>
+            <br><br>
+            <p>JESUS TORRES</p>    
+        </div>
+    </div>
+    
+</body>
+</html>
